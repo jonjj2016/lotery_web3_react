@@ -1,7 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import web3 from './web3'
 
 function App() {
+  console.log(web3)
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +21,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
